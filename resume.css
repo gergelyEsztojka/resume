@@ -1,22 +1,13 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-size: 1em;
+}
+
+.banner {
+    background-color: gray;
+    color: white;
+}
+
+.main {
+    background-color: white;
     color: black;
-}
-
-.title {
-    font-size: 3em;
-    color: #9b2948;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.subtitle {
-    font-size: 2em;
-    color: #ff7251;
-    text-transform: capitalize;
-}
-
-a {
-    color: #e73939;
 }

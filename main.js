@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
         'eng' : {
             'mentorRefText': "Gery is quite a solution-focused person who has the ability to change the perspective of challeging situations. With his positive attitude, he can boost his teammates while he puts extra efford to achieve the common goal. He is a really humble collegue with the necessary skills of a proffesional developer. Gery is really accountable who delivers in time and communicate transparently.",
             'classRefText': "Even while being super professional and hard working, Gery's coding skills are the less important thing why working with him is amazing. Not only is he great at delivering his tasks, he is also very nice and chilled person, who deals with stressful situations or last minute deadliness superbly and helps resolving any conflict situations between team members might they come up doring the sprint.",
+            'ref-class-1': "- Évi Kádár, Classmate",
             't1': "Contact",
             't2': "Education",
             't2-1': "Software Developer School",
@@ -54,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
         'hun' : {
             'mentorRefText': "Gery egy olyan személy, aki a megoldásra koncentrál, és meg van rá a képessége, hogy megváltoztassa kihívást jelentő helyzeteket. A pozitív hozzáállásával, segíti a csapatszellemet, miközben extra erőfeszítéseket tesz a közös cél érdekében. Ő egy igazán alázatos munkatárs, akiben megvan minden képesség, hogy professzionális fejlesztő legyen. Gery megbízható, aki mindig időre teljesít és nyíltan kommunikál.",
             'classRefText': "Szorgalmas, professzionális, és nem legkisebb érdemben a kódolási tudása mellett Gery-vel dolgozni nagyszerű. Nem csak, hogy remekül ellátja feladatait, de kedves és nyugodt személyisége segíti, hogy stresszes helyzetekben is megállja a helyét legyen az csapaton belül vagy a sprint idő rövídsége miatt.",
+            'ref-class-1': "- Évi Kádár, Csoporttárs",
             't1': "Elérhetőség",
             't2': "Képzésék",
             't2-1': "Software Fejlesztő Képzés",
@@ -103,101 +105,65 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
     hunLanguage.addEventListener('click', function(event) {
         document.title = "Önéletrajz - Esztojka Gergely"
-        document.getElementById("ref-mentor").innerHTML = translations['hun']['mentorRefText']
-        document.getElementById("ref-class").innerHTML = translations['hun']['classRefText']
-        document.getElementById("t1").innerHTML = translations['hun']['t1']
-        document.getElementById("t2").innerHTML = translations['hun']['t2']
-        document.getElementById("t2-1").innerHTML = translations['hun']['t2-1']
-        document.getElementById("t2-2").innerHTML = translations['hun']['t2-2']
-        document.getElementById("t2-3").innerHTML = translations['hun']['t2-3']
-        document.getElementById("t2-4").innerHTML = translations['hun']['t2-4']
-        document.getElementById("t2-5").innerHTML = translations['hun']['t2-5']
-        document.getElementById("t3").innerHTML = translations['hun']['t3']
-        document.getElementById("t4").innerHTML = translations['hun']['t4']
-        document.getElementById("t4-1").innerHTML = translations['hun']['t4-1']
-        document.getElementById("t4-2").innerHTML = translations['hun']['t4-2']
-        document.getElementById("t5-1").innerHTML = translations['hun']['t5-1']
-        document.getElementById("t5-2").innerHTML = translations['hun']['t5-2']
-        document.getElementById("t5-3").innerHTML = translations['hun']['t5-3']
-        document.getElementById("t6").innerHTML = translations['hun']['t6']
-        document.getElementById("t6-1").innerHTML = translations['hun']['t6-1']
-        document.getElementById("t7").innerHTML = translations['hun']['t7']
-        document.getElementById("t7-1").innerHTML = translations['hun']['t7-1']
-        document.getElementById("t7-1-1").innerHTML = translations['hun']['t7-1-1']
-        document.getElementById("t7-1-2").innerHTML = translations['hun']['t7-1-2']
-        document.getElementById("t7-1-3").innerHTML = translations['hun']['t7-1-3']
-        document.getElementById("t7-2").innerHTML = translations['hun']['t7-2']
-        document.getElementById("t7-2-1").innerHTML = translations['hun']['t7-2-1']
-        document.getElementById("t7-2-2").innerHTML = translations['hun']['t7-2-2']
-        document.getElementById("t7-2-3").innerHTML = translations['hun']['t7-2-3']
-        document.getElementById("t7-3").innerHTML = translations['hun']['t7-3']
-        document.getElementById("t7-3-1").innerHTML = translations['hun']['t7-3-1']
-        document.getElementById("t7-3-2").innerHTML = translations['hun']['t7-3-2']
-        document.getElementById("t7-3-3").innerHTML = translations['hun']['t7-3-3']
-        document.getElementById("t7-4").innerHTML = translations['hun']['t7-4']
-        document.getElementById("t7-4-1").innerHTML = translations['hun']['t7-4-1']
-        document.getElementById("t7-4-2").innerHTML = translations['hun']['t7-4-2']
-        document.getElementById("t7-4-3").innerHTML = translations['hun']['t7-4-3']
-        document.getElementById("t7-5").innerHTML = translations['hun']['t7-5']
-        document.getElementById("t7-5-1").innerHTML = translations['hun']['t7-5-1']
-        document.getElementById("t7-5-2").innerHTML = translations['hun']['t7-5-2']
-        document.getElementById("t7-5-3").innerHTML = translations['hun']['t7-5-3']
-        document.getElementById("t8").innerHTML = translations['hun']['t8']
-        document.getElementById("t8-1").innerHTML = translations['hun']['t8-1']
-        document.getElementById("t8-2").innerHTML = translations['hun']['t8-2']
-        document.getElementById("t8-3").innerHTML = translations['hun']['t8-3']
-        document.getElementById("t8-4").innerHTML = translations['hun']['t8-4']
-        document.getElementById("t9").innerHTML = translations['hun']['t9']
-        document.getElementById("t9-1").innerHTML = translations['hun']['t9-1']
+        engLanguage.style.fontWeight = 100
+        hunLanguage.style.fontWeight = "Bold"
+        changeLanguage('hun')
     });
 
     engLanguage.addEventListener('click', function(event) {
         document.title = "Resume - Esztojka Gergely"
-        document.getElementById("ref-mentor").innerHTML = translations['eng']['mentorRefText']
-        document.getElementById("ref-class").innerHTML = translations['eng']['classRefText']
-        document.getElementById("t1").innerHTML = translations['eng']['t1']
-        document.getElementById("t2").innerHTML = translations['eng']['t2']
-        document.getElementById("t2-1").innerHTML = translations['eng']['t2-1']
-        document.getElementById("t2-2").innerHTML = translations['eng']['t2-2']
-        document.getElementById("t2-3").innerHTML = translations['eng']['t2-3']
-        document.getElementById("t2-4").innerHTML = translations['eng']['t2-4']
-        document.getElementById("t2-5").innerHTML = translations['eng']['t2-5']
-        document.getElementById("t3").innerHTML = translations['eng']['t3']
-        document.getElementById("t4").innerHTML = translations['eng']['t4']
-        document.getElementById("t4-1").innerHTML = translations['eng']['t4-1']
-        document.getElementById("t4-2").innerHTML = translations['eng']['t4-2']
-        document.getElementById("t5-1").innerHTML = translations['eng']['t5-1']
-        document.getElementById("t5-2").innerHTML = translations['eng']['t5-2']
-        document.getElementById("t5-3").innerHTML = translations['eng']['t5-3']
-        document.getElementById("t6").innerHTML = translations['eng']['t6']
-        document.getElementById("t6-1").innerHTML = translations['eng']['t6-1']
-        document.getElementById("t7").innerHTML = translations['eng']['t7']
-        document.getElementById("t7-1").innerHTML = translations['eng']['t7-1']
-        document.getElementById("t7-1-1").innerHTML = translations['eng']['t7-1-1']
-        document.getElementById("t7-1-2").innerHTML = translations['eng']['t7-1-2']
-        document.getElementById("t7-1-3").innerHTML = translations['eng']['t7-1-3']
-        document.getElementById("t7-2").innerHTML = translations['eng']['t7-2']
-        document.getElementById("t7-2-1").innerHTML = translations['eng']['t7-2-1']
-        document.getElementById("t7-2-2").innerHTML = translations['eng']['t7-2-2']
-        document.getElementById("t7-2-3").innerHTML = translations['eng']['t7-2-3']
-        document.getElementById("t7-3").innerHTML = translations['eng']['t7-3']
-        document.getElementById("t7-3-1").innerHTML = translations['eng']['t7-3-1']
-        document.getElementById("t7-3-2").innerHTML = translations['eng']['t7-3-2']
-        document.getElementById("t7-3-3").innerHTML = translations['eng']['t7-3-3']
-        document.getElementById("t7-4").innerHTML = translations['eng']['t7-4']
-        document.getElementById("t7-4-1").innerHTML = translations['eng']['t7-4-1']
-        document.getElementById("t7-4-2").innerHTML = translations['eng']['t7-4-2']
-        document.getElementById("t7-4-3").innerHTML = translations['eng']['t7-4-3']
-        document.getElementById("t7-5").innerHTML = translations['eng']['t7-5']
-        document.getElementById("t7-5-1").innerHTML = translations['eng']['t7-5-1']
-        document.getElementById("t7-5-2").innerHTML = translations['eng']['t7-5-2']
-        document.getElementById("t7-5-3").innerHTML = translations['eng']['t7-5-3']
-        document.getElementById("t8").innerHTML = translations['eng']['t8']
-        document.getElementById("t8-1").innerHTML = translations['eng']['t8-1']
-        document.getElementById("t8-2").innerHTML = translations['eng']['t8-2']
-        document.getElementById("t8-3").innerHTML = translations['eng']['t8-3']
-        document.getElementById("t8-4").innerHTML = translations['eng']['t8-4']
-        document.getElementById("t9").innerHTML = translations['eng']['t9']
-        document.getElementById("t9-1").innerHTML = translations['eng']['t9-1']
+        engLanguage.style.fontWeight = "Bold"
+        hunLanguage.style.fontWeight = 100
+        changeLanguage('eng')   
     });
+
+    function changeLanguage(language) {
+        document.getElementById("ref-mentor").innerHTML = translations[language]['mentorRefText']
+        document.getElementById("ref-class").innerHTML = translations[language]['classRefText']
+        document.getElementById("ref-class-1").innerHTML = translations[language]['ref-class-1']
+        document.getElementById("t1").innerHTML = translations[language]['t1']
+        document.getElementById("t2").innerHTML = translations[language]['t2']
+        document.getElementById("t2-1").innerHTML = translations[language]['t2-1']
+        document.getElementById("t2-2").innerHTML = translations[language]['t2-2']
+        document.getElementById("t2-3").innerHTML = translations[language]['t2-3']
+        document.getElementById("t2-4").innerHTML = translations[language]['t2-4']
+        document.getElementById("t2-5").innerHTML = translations[language]['t2-5']
+        document.getElementById("t3").innerHTML = translations[language]['t3']
+        document.getElementById("t4").innerHTML = translations[language]['t4']
+        document.getElementById("t4-1").innerHTML = translations[language]['t4-1']
+        document.getElementById("t4-2").innerHTML = translations[language]['t4-2']
+        document.getElementById("t5-1").innerHTML = translations[language]['t5-1']
+        document.getElementById("t5-2").innerHTML = translations[language]['t5-2']
+        document.getElementById("t5-3").innerHTML = translations[language]['t5-3']
+        document.getElementById("t6").innerHTML = translations[language]['t6']
+        document.getElementById("t6-1").innerHTML = translations[language]['t6-1']
+        document.getElementById("t7").innerHTML = translations[language]['t7']
+        document.getElementById("t7-1").innerHTML = translations[language]['t7-1']
+        document.getElementById("t7-1-1").innerHTML = translations[language]['t7-1-1']
+        document.getElementById("t7-1-2").innerHTML = translations[language]['t7-1-2']
+        document.getElementById("t7-1-3").innerHTML = translations[language]['t7-1-3']
+        document.getElementById("t7-2").innerHTML = translations[language]['t7-2']
+        document.getElementById("t7-2-1").innerHTML = translations[language]['t7-2-1']
+        document.getElementById("t7-2-2").innerHTML = translations[language]['t7-2-2']
+        document.getElementById("t7-2-3").innerHTML = translations[language]['t7-2-3']
+        document.getElementById("t7-3").innerHTML = translations[language]['t7-3']
+        document.getElementById("t7-3-1").innerHTML = translations[language]['t7-3-1']
+        document.getElementById("t7-3-2").innerHTML = translations[language]['t7-3-2']
+        document.getElementById("t7-3-3").innerHTML = translations[language]['t7-3-3']
+        document.getElementById("t7-4").innerHTML = translations[language]['t7-4']
+        document.getElementById("t7-4-1").innerHTML = translations[language]['t7-4-1']
+        document.getElementById("t7-4-2").innerHTML = translations[language]['t7-4-2']
+        document.getElementById("t7-4-3").innerHTML = translations[language]['t7-4-3']
+        document.getElementById("t7-5").innerHTML = translations[language]['t7-5']
+        document.getElementById("t7-5-1").innerHTML = translations[language]['t7-5-1']
+        document.getElementById("t7-5-2").innerHTML = translations[language]['t7-5-2']
+        document.getElementById("t7-5-3").innerHTML = translations[language]['t7-5-3']
+        document.getElementById("t8").innerHTML = translations[language]['t8']
+        document.getElementById("t8-1").innerHTML = translations[language]['t8-1']
+        document.getElementById("t8-2").innerHTML = translations[language]['t8-2']
+        document.getElementById("t8-3").innerHTML = translations[language]['t8-3']
+        document.getElementById("t8-4").innerHTML = translations[language]['t8-4']
+        document.getElementById("t9").innerHTML = translations[language]['t9']
+        document.getElementById("t9-1").innerHTML = translations[language]['t9-1']
+    };
 });

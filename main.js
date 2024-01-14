@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function (event) {
   translations = {
     eng: {
       mentorRefText:
-        'Gery is quite a solution-focused person who has the ability to change the perspective of challeging situations. With his positive attitude, he can boost his teammates while he puts extra efford to achieve the common goal. He is a really humble collegue with the necessary skills of a proffesional developer. Gery is really accountable who delivers in time and communicate transparently.',
+        '"Gery is quite a solution-focused person who has the ability to change the perspective of challeging situations. With his positive attitude, he can boost his teammates while he puts extra efford to achieve the common goal. He is a really humble collegue with the necessary skills of a proffesional developer. Gery is really accountable who delivers in time and communicate transparently."',
       classRefText:
-        "Even while being super professional and hard working, Gery's coding skills are the less important thing why working with him is amazing. Not only is he great at delivering his tasks, he is also very nice and chilled person, who deals with stressful situations or last minute deadliness superbly and helps resolving any conflict situations between team members might they come up doring the sprint.",
-      'ref-class-1': '- Évi Kádár, Classmate',
-      t1: 'Contact',
+        '"Gery is characterized by a high degree of intelligence in the field of communication. He understands and takes into account the point of view of the negotiator, so he can conclude effective agreements. Working together is inspiring, he has proven countless times that he can be relied upon as a reliable partner. He is open to new solutions and learn them independently."',
+      'ref-class-1': '- IT Application Development Manager',
+      t1: 'Contacts',
       t2: 'Education',
       't2-1': 'Software Developer School',
       't2-2': 'European Union Trade Manager',
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
       't7-0-1': 'June 2021 -',
       't7-0-2': 'World Kinect Energy Services, Budapest - Hungary',
       't7-0-3':
-        'Implement MSSQL stored procedures, building API services with .NET 6. Doing Application support tasks.',
+        'Implement MSSQL stored procedures, building API services with .NET 6. Doing Application support tasks. Working on a green field project in Angular and Apollo GraphQL.',
       't7-1': 'Junior Software Developer',
       't7-1-1': 'August 2019 - May 2020',
       't7-1-2': 'infinitrac Kft., Budapest - Hungary',
@@ -56,15 +56,15 @@ document.addEventListener('DOMContentLoaded', function (event) {
       't7-5-1': 'February 2011 - July 2011',
       't7-5-2': 'The Aquincum Hotel, Budapest - Hungary',
       't7-5-3':
-        'IT support for the hotel departents. Technical service for costumers. Server maintenance and e-mail account management.',
+        'IT support for the hotel departments. Technical service for costumers. Server maintenance and e-mail account management.',
       t8: 'Skills',
       't8-1': 'Good Listener',
       't8-2': 'Flexibility',
       't8-3': 'Friendliness',
       't8-4': 'Desire to Learn',
-      t9: 'Interesting Things About Me',
+      t9: 'Hobbies',
       't9-1':
-        'In my free time I like to play board games, learn new interesting facts, reading books. I like to spend time outside as well, go hiking, play table tennis, tennis with my friends.',
+        'In my free time I like to play board games, learn new interesting facts, reading books. I like to spend time actively, going for hike, doing yoga and bouldering.',
     },
     hun: {
       mentorRefText:
